@@ -1,7 +1,7 @@
 package com.gulcancelik;
 
-import com.mimaraslan.departman.Mudur;
-import com.mimaraslan.departman.Muhasebeci;
+import com.gulcancelik.departman.Mudur;
+import com.gulcancelik.departman.Muhasebeci;
 
 public class AppMain {
 
@@ -37,7 +37,7 @@ public class AppMain {
 
         Muhasebeci muhasebeci = new Muhasebeci();
         muhasebeci.setAdi("Şadiye");
-        muhasebeci.setUnvani("Mali Musavir");
+        muhasebeci.setDepartmani("Mali Musavir");
 
         System.out.println(muhasebeci);
         muhasebeci.bilgiPersonelYaz(muhasebeci);
